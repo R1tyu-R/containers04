@@ -56,7 +56,7 @@ echo '<h1>Hello, World!</h1>' > /var/www/html/index.html
 где: 
 
 - `ls -l /var/www/html/` - выводит список и подробную информацию о директории `/var/www/html/`
-- `echo '<h1>Hello, World!</h1>' > /var/www/html/index.html` - создаем тег h1 с содержимым Hello, World! внутрь файла index.html
+- `echo '<h1>Hello, World!</h1>'  /var/www/html/index.html` - создаем тег h1 с содержимым Hello, World! внутрь файла index.html
 
 Обновляем страницу и видим результат, сообщение: Hello, World!
 
